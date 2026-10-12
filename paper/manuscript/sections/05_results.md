@@ -51,7 +51,7 @@ Table: Pretrained models on the main trials (n=6). Every configuration is class 
 
 At n=6, t4 − scramble lies between −0.019 and +0.026 (Qwen3-8B-Base: −0.008 [−0.038, +0.022]), and every 95% CI includes 0 (@fig:llm). Held-out minus scramble lies between −0.04 and +0.02.
 
-Two raw increases from t=0 to t=4 were reliable, and both vanish against the scramble history. OLMo-2-1B at n=6 gains +0.042 [+0.011, +0.073] from t=0 to t=4, but only +0.020 [−0.008, +0.051] relative to scramble. Qwen3-0.6B at n=8 gains +0.031 [+0.014, +0.048], and +0.008 relative to scramble, with a CI that includes 0. Neither raw gain survives the length-matched control, so both are consistent with effects of context length alone, which is why that control is needed.
+Two raw increases from t=0 to t=4 were reliable, and both vanish against the scramble history. OLMo-2-1B at n=6 gains +0.042 [+0.011, +0.073] from t=0 to t=4, but only +0.020 [−0.008, +0.051] relative to scramble. Qwen3-0.6B at n=8 gains +0.031 [+0.014, +0.049], and +0.008 relative to scramble, with a CI that includes 0. Neither raw gain survives the length-matched control, so both are consistent with effects of context length alone, which is why that control is needed.
 
 #### Recall depends on family more than on size
 
