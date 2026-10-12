@@ -13,7 +13,7 @@ license:
   - CC-BY-4.0
 repository-code: "https://github.com/Somebodyhere101/compounding-fingerprint"
 preferred-citation:
-  type: unpublished
+  type: generic
   title: "A Compounding Fingerprint: Telling Abstraction from Exemplar Reuse in Context"
   authors:
     - family-names: "Ramdan"
@@ -21,7 +21,10 @@ preferred-citation:
       affiliation: "Independent Researcher"
       orcid: "https://orcid.org/0009-0004-7723-4240"
   year: 2026
-  url: "https://github.com/Somebodyhere101/compounding-fingerprint"
+  publisher:
+    name: "Zenodo"
+  doi: "10.5281/zenodo.23318678"
+  url: "https://doi.org/10.5281/zenodo.23318678"
 references:
   - type: article
     title: "A Single Direction Separates Computation from Retrieval in Transformer Hidden States"

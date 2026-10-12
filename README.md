@@ -1,6 +1,6 @@
 # A Compounding Fingerprint: Telling Abstraction from Exemplar Reuse in Context
 
-Code, stimuli, raw results, preregistrations, audits and manuscript for the paper of the same name. **This project was carried out with substantial AI assistance** (see [Use of AI assistance](#use-of-ai-assistance)). The paper is in [`paper/manuscript/paper.pdf`](paper/manuscript/paper.pdf). It is built from `paper/manuscript/sections/*.md`, and the generated LaTeX is `paper/manuscript/main.tex`.
+Code, stimuli, raw results, preregistrations, audits and manuscript for the paper of the same name. **This project was carried out with substantial AI assistance** (see [Use of AI assistance](#use-of-ai-assistance)). The paper is in [`paper/manuscript/paper.pdf`](paper/manuscript/paper.pdf) and is archived on Zenodo with its LaTeX source and the preregistration files: [doi:10.5281/zenodo.23318678](https://doi.org/10.5281/zenodo.23318678). It is built from `paper/manuscript/sections/*.md`, and the generated LaTeX is `paper/manuscript/main.tex`.
 
 **The question.** When a model gets better at a structured task after seeing earlier examples in context, did it abstract the structure, or reuse the examples?
 
@@ -80,7 +80,7 @@ The GPU scripts were run on Windows and contain local paths. Edit them before re
 - **Idealised learners** (`exp1/ideal/code/ideal.py`) need the small C helper `latc.c` compiled as a shared library next to it, for example `gcc -O2 -shared -o latc.dll latc.c` on Windows. On Linux or macOS, build it with `gcc -O2 -shared -fPIC "-D__declspec(x)=" -o latc.so latc.c` and change `latc.dll` to `latc.so` in `cnt.py` (line 6).
 
 ## Notes on the record
-- **Preregistrations.** The preregistration files are dated files in this repository and were not registered with a third party. Their SHA-256 sums are in `PREREGISTRATIONS_SHA256SUMS` (`sha256sum -c PREREGISTRATIONS_SHA256SUMS`), so an archived copy can be checked against the repository.
+- **Preregistrations.** The preregistration files are dated files in this repository and were not registered with a third party. Their SHA-256 sums are in `PREREGISTRATIONS_SHA256SUMS` (`sha256sum -c PREREGISTRATIONS_SHA256SUMS`), so an archived copy can be checked against the repository. The copy archived with the paper on Zenodo ([doi:10.5281/zenodo.23318678](https://doi.org/10.5281/zenodo.23318678), deposited 2026-10-12) has the same sums.
 - **Local paths.** Before publication, absolute local paths in scripts, logs and run configs were replaced by placeholders, and nothing else in those files was changed. `<repo>` stands for the repository root at run time. In the shell scripts the Windows account name is `$USERNAME`, which Git Bash expands; elsewhere it is `%USERNAME%`. The path to the CR-axis code is a placeholder. The frozen `exp5/PREREGISTRATION.md` still names the relative local folder where the author read that code; the public code is <https://github.com/Somebodyhere101/compute-retrieve>. Some working notes (`exp3/README.md`, `runs/c10/`) also had their paths replaced and were lightly reworded for outside readers.
 - **Wording in the working notes.** The preregistrations and working notes were written by the AI assistant during the project. In them, "the user" means the author, and "the brief" means the author's initial task description, which is not included.
 
