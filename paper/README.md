@@ -19,6 +19,9 @@ The full paper is in `manuscript/`: `paper.pdf`, `main.tex` and `arxiv_upload.zi
 |---|---|---|
 | `results_tables.md`, `results_all.json` | `collect.py` | every learner, model and network on the identical 1,800 trials: classes, contrasts with CIs, derived quantities |
 | `cal_summary.md`, `cal_summary.json` | `cal_summary.py` | calibration: L accuracy by k, k28−k10, sorted−raw and instructed−raw contrasts |
+| `heldout_typematched.md`, `heldout_typematched.json` | `heldout_typematched.py` | post hoc (2026-10-12): held-out contrasts against baselines restricted to the held-out target types |
+| `multiplicity.md`, `multiplicity.json` | `multiplicity.py` | post hoc (2026-10-12): Bonferroni-adjusted intervals for the pretrained-model contrasts |
+| `worked_example.md` | `worked_example.py` | the order-5 forcing-class example in Section 3.2, checked by enumeration and with the stimulus engine |
 | `../exp2/RESULTS2_tables.md` | `../exp2/analyze2.py` | per-model cue-sweep detail |
 | `../exp2/RESULTS_2d.md` | `../exp2/analyze_2d.py` (stimuli: `../exp2/make_stim_k16.py`) | addendum-2d k=16 operating point for Qwen3-0.6B/1.7B-Base |
 | `../exp2/offchk_result.md` | `../exp2/offchk_compare.py` | scoring-path checks: offload vs standard; the re-scored primary contrast |

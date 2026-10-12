@@ -19,3 +19,6 @@ exp6/dl/models_index.html
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# upload package for the preregistration archive (see PREREGISTRATIONS_SHA256SUMS)
+release/

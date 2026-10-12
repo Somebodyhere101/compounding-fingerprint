@@ -3,6 +3,15 @@
 *.sh text eol=lf
 # checksum list read by sha256sum -c, which fails on CRLF
 exp6/dl/weights_SHA256SUMS text eol=lf
+# preregistration files, checked byte for byte by PREREGISTRATIONS_SHA256SUMS
+exp1/PREREGISTRATION.md text eol=lf
+exp2/PREREGISTRATION_ADDENDUM.md text eol=lf
+exp3/PREREGISTRATION.md text eol=lf
+exp5/PREREGISTRATION.md text eol=lf
+exp6/PREREGISTRATION.md text eol=lf
+exp4/NOTE.md text eol=lf
+exp5/CONTROL_vocab.md text eol=lf
+PREREGISTRATIONS_SHA256SUMS text eol=lf
 
 # Binary files: never convert or diff as text.
 *.pdf binary

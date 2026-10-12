@@ -7,16 +7,16 @@ Code, stimuli, raw results, preregistrations, audits and manuscript for the pape
 **The method.** Models complete partial Cayley tables, written in fresh word labels, after 0–4 earlier complete tables (the *history*).
 - Every queried cell is labelled exactly, by enumeration or SAT, with the weakest axiom class that forces it: Latin (L), loop (O) or group-only (G).
 - Histories are controlled by a length-matched scramble, held-out isomorphism types, a recall (leak) control and non-associative loops.
-- A preregistered decision rule maps the resulting signature to learner classes, and recovers seven exact idealised learners with no error.
+- A preregistered decision rule maps the resulting signature to learner classes, and recovers seven exact idealised learners with no error. The branch that separates abstraction from exemplar matching has so far been validated only on these exact learners.
 
 ## Main results
 
 | | finding | where |
 |---|---|---|
-| Pretrained LMs | Nine checkpoints (ten model–precision configurations) from Qwen3, SmolLM2 and OLMo-2, 0.6–8B, are all recall-only (class R). None compounds: t=4 minus scramble is −0.019 to +0.026, and every CI includes 0. | Exp. 1–2 |
+| Pretrained LMs | Nine checkpoints (ten model–precision configurations) from Qwen3, SmolLM2 and OLMo-2, 0.6–8B, are all class R on this format: none reaches the preregistered Latin-inference threshold, and none gains from earlier group tables beyond a length-matched scramble (t=4 minus scramble −0.019 to +0.026, every 95% upper bound at most +0.056, against +0.72 for exemplar copying). | Exp. 1–2 |
 | Trained networks | Small transformers trained from scratch learn a global count shortcut, which a post-hoc count learner matches to within 0.001–0.007 in five of six learned networks. | Exp. 3 |
 | Positive control | The released In-Context Algebra model is classified non-R, non-B. At t=0, Latin- and loop-forced cells score 0.89–0.99 and G cells 0.53–0.70. | Exp. 6 |
-| CR axis | The author's earlier "compute vs retrieve" activation axis ([preprint](https://doi.org/10.5281/zenodo.19455724)) moves significantly in the predicted direction in 0 of 5 models on a format-matched retrieval/inference contrast, and is significantly reversed in 3. | Exp. 5, 5b |
+| CR axis | The author's earlier "compute vs retrieve" activation axis ([preprint](https://doi.org/10.5281/zenodo.19455724)) moves significantly in the predicted direction in 0 of 5 models on a format- and length-matched (not vocabulary-matched) retrieval/inference contrast, and is significantly reversed in 3. | Exp. 5, 5b |
 | Reasoning probe | Inconclusive: truncation dominated. | Exp. 4 |
 
 All model inference and training ran on one 8 GB laptop GPU (RTX 5070).
@@ -36,7 +36,7 @@ All model inference and training ran on one 8 GB laptop GPU (RTX 5070).
 | `paper/` | Pre-manuscript drafts (see `paper/README.md`), generated tables (`collect.py`, `cal_summary.py`), figures (`figures.py` writes `fig/`), and the assembled manuscript in `manuscript/` (see `paper/manuscript/README.md`). |
 | `*.sh`, `*.py`, `*.log` at the top level | The GPU job queues and finishers that ran everything (`master.sh`, `master2.sh`, `after_master*.sh`, `finish_all.py`, `gpu_checks.py`, `gpu_2d.py`) and their logs. The logs (`master2.log`, `finish_all.log`, `gpu_checks.log`, `gpu_2d.log`) are the provenance for the dates and times in the deviation register. `keepawake.py` keeps the laptop from sleeping while a queue runs. |
 
-Every deviation from the preregistrations is listed in Appendix G of the paper and in `paper/methods.md`.
+Every deviation from the preregistrations is listed in Appendix J of the paper and in `paper/methods.md`.
 
 ## Reproducing the analyses (CPU, from the committed results)
 1. Clone the repository and enter it:
@@ -58,6 +58,7 @@ Every deviation from the preregistrations is listed in Appendix G of the paper a
    cd exp5 && python analyze5.py && python analyze_ctrl.py && cd ..
    cd exp6 && python analyze6.py && python mechanism.py && cd ..
    cd paper && python collect.py && python cal_summary.py && python figures.py && cd ..
+   cd paper && python heldout_typematched.py && python multiplicity.py && python worked_example.py && cd ..
    cd paper/manuscript && python build.py && cd ../..
    ```
 
@@ -79,6 +80,7 @@ The GPU scripts were run on Windows and contain local paths. Edit them before re
 - **Idealised learners** (`exp1/ideal/code/ideal.py`) need the small C helper `latc.c` compiled as a shared library next to it, for example `gcc -O2 -shared -o latc.dll latc.c` on Windows. On Linux or macOS, build it with `gcc -O2 -shared -fPIC "-D__declspec(x)=" -o latc.so latc.c` and change `latc.dll` to `latc.so` in `cnt.py` (line 6).
 
 ## Notes on the record
+- **Preregistrations.** The preregistration files are dated files in this repository and were not registered with a third party. Their SHA-256 sums are in `PREREGISTRATIONS_SHA256SUMS` (`sha256sum -c PREREGISTRATIONS_SHA256SUMS`), so an archived copy can be checked against the repository.
 - **Local paths.** Before publication, absolute local paths in scripts, logs and run configs were replaced by placeholders, and nothing else in those files was changed. `<repo>` stands for the repository root at run time. In the shell scripts the Windows account name is `$USERNAME`, which Git Bash expands; elsewhere it is `%USERNAME%`. The path to the CR-axis code is a placeholder. The frozen `exp5/PREREGISTRATION.md` still names the relative local folder where the author read that code; the public code is <https://github.com/Somebodyhere101/compute-retrieve>. Some working notes (`exp3/README.md`, `runs/c10/`) also had their paths replaced and were lightly reworded for outside readers.
 - **Wording in the working notes.** The preregistrations and working notes were written by the AI assistant during the project. In them, "the user" means the author, and "the brief" means the author's initial task description, which is not included.
 

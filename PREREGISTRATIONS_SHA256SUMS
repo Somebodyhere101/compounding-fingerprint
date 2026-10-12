@@ -1,0 +1,10 @@
+# SHA-256 of the preregistration files and design notes, as committed in edc97c6.
+# The same bytes are in release/compounding-fingerprint-preregistrations.zip for deposit on Zenodo or OSF.
+# Check: sha256sum -c PREREGISTRATIONS_SHA256SUMS (from the repository root).
+a741493b34affd7c14b949abdbf2d934e19303f0824dbe475ca54cb8ef04536a  exp1/PREREGISTRATION.md
+0bb1d955ba78311975c34185c9ac9ce80de574eba1af008fc40fb96ee82a9ec7  exp2/PREREGISTRATION_ADDENDUM.md
+8474169671d132752539abb429488543fc47ac3bf766272c2ebf08b0fcb3a203  exp3/PREREGISTRATION.md
+ec797dcc2f1db3da88969454bd01fe888ffa1f33cdba20f01ec778165100359e  exp5/PREREGISTRATION.md
+400f92f5aa0ea80da09756bf3daa4e63b01a0173ba5d299b2ccee3d3891e41f0  exp6/PREREGISTRATION.md
+6712783cddc81e3bd6a82867eaef0fe5b388fb1bf294f39a0bd0031c1b37477c  exp4/NOTE.md
+14e2719c1da65d2bde2a72f9fbdc39526cfc9fd014766004b890eb8bb9d9f283  exp5/CONTROL_vocab.md
