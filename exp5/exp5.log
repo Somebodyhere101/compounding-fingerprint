@@ -1,0 +1,22 @@
+START cr:q06b attempt 1 12:03:49
+verify: max relative diff vs CRDetector._get_hidden = 0.0
+calibration: AUC by layer {7: 0.9088888888888889, 14: 0.9344444444444444, 21: 0.9766666666666667, 26: 0.9777777777777777} -> layer 26
+DONE cr_probe q06b: 10400 queries, 4882s
+END cr:q06b 13:26:07
+START cr:q17b attempt 1 13:26:07
+calibration: AUC by layer {7: 0.94, 14: 0.9555555555555556, 21: 0.9577777777777777, 26: 0.9644444444444444} -> layer 26
+DONE cr_probe q17b: 10400 queries, 1174s
+END cr:q17b 13:46:10
+START cr:q17 attempt 1 13:46:10
+calibration: AUC by layer {7: 0.8977777777777778, 14: 0.97, 21: 0.9933333333333333, 26: 0.9766666666666667} -> layer 21
+DONE cr_probe q17: 10400 queries, 1072s
+END cr:q17 14:04:28
+START cr:q4b attempt 1 14:04:28
+calibration: AUC by layer {9: 0.9166666666666666, 18: 0.9244444444444444, 27: 0.9555555555555556, 34: 0.9733333333333334} -> layer 34
+DONE cr_probe q4b: 4780 queries, 834s
+END cr:q4b 14:18:57
+START cr:q8b attempt 1 14:18:57
+calibration: AUC by layer {9: 0.9733333333333334, 18: 0.99, 27: 0.9877777777777778, 34: 0.9911111111111112} -> layer 34
+DONE cr_probe q8b: 4780 queries, 1302s
+END cr:q8b 14:41:25
+EXP5 FINISHED 14:41:25

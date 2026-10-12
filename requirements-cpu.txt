@@ -1,0 +1,7 @@
+# CPU environment: stimulus generation, idealised learners, every analysis, figures and the manuscript build.
+# Python 3.12. Versions are those used for the reported results.
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+python-sat==1.9.dev15
+ortools==9.15.6755

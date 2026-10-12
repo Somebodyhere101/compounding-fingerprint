@@ -1,0 +1,26 @@
+n=5 Z5 k= 0  E[log2 P_grp/P_latin]=0.0  E[log2 P_grp/P_loop]=0.0
+n=5 Z5 k= 1  E[log2 P_grp/P_latin]=0.0  E[log2 P_grp/P_loop]=0.0
+n=5 Z5 k= 2  E[log2 P_grp/P_latin]=0.774135207335734  E[log2 P_grp/P_loop]=0.29673804271868004
+n=5 Z5 k= 3  E[log2 P_grp/P_latin]=2.2838493252337453  E[log2 P_grp/P_loop]=0.8241978828129187
+n=5 Z5 k= 4  E[log2 P_grp/P_latin]=3.9091916458918106  E[log2 P_grp/P_loop]=1.3437866189409131
+n=5 Z5 k= 5  E[log2 P_grp/P_latin]=5.596223850081667  E[log2 P_grp/P_loop]=1.8837711770825323
+n=5 Z5 k= 6  E[log2 P_grp/P_latin]=7.264816977943872  E[log2 P_grp/P_loop]=2.543388724745124
+n=5 Z5 k= 7  E[log2 P_grp/P_latin]=8.488081567509134  E[log2 P_grp/P_loop]=2.467271381533059
+n=5 Z5 k= 8  E[log2 P_grp/P_latin]=9.731933528076457  E[log2 P_grp/P_loop]=2.658119403454282
+n=5 Z5 k= 9  E[log2 P_grp/P_latin]=10.756229563415593  E[log2 P_grp/P_loop]=3.0431442963003903
+n=5 Z5 k=10  E[log2 P_grp/P_latin]=11.632812476211475  E[log2 P_grp/P_loop]=3.1028936713124096
+n=5 Z5 k=11  E[log2 P_grp/P_latin]=11.995122371125188  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=12  E[log2 P_grp/P_latin]=12.146402631076034  E[log2 P_grp/P_loop]=3.1723924213364483
+n=5 Z5 k=13  E[log2 P_grp/P_latin]=12.358984089445427  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=14  E[log2 P_grp/P_latin]=12.375650756112094  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=15  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=16  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=17  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=18  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=19  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=20  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=21  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=22  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=23  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=24  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485
+n=5 Z5 k=25  E[log2 P_grp/P_latin]=12.392317422778762  E[log2 P_grp/P_loop]=3.2223924213364485

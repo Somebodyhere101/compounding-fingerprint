@@ -1,0 +1,4 @@
+{"summary": {"file": "n8_base_t4.jsonl", "trial": 0, "cls": {"G": 36, "O": 12}}}
+{"summary": {"file": "n8_base_t4.jsonl", "trial": 25, "cls": {"G": 22, "O": 10, "U": 16}}}
+{"summary": {"file": "n8_base_t4.jsonl", "trial": 50, "cls": {"U": 16, "G": 13, "Ab": 8, "O": 10, "L": 1}}}
+{"summary": {"file": "n8_base_t4.jsonl", "trial": 75, "cls": {"G": 32, "O": 16}}}

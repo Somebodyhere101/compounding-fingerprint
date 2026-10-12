@@ -1,0 +1,6 @@
+10-09 19:39:50 START q06b_k16 attempt 1
+10-09 19:43:00 DONE Qwen/Qwen3-0.6B-Base: trials=600 queries=12000 time=180s fallback=0 peakVRAM=3.41GiB multi_token_words=[] oom_backoffs=0 rc=0
+10-09 19:43:00 START q17b_k16 attempt 1
+10-09 19:47:25 DONE Qwen/Qwen3-1.7B-Base: trials=600 queries=12000 time=254s fallback=0 peakVRAM=4.62GiB multi_token_words=[] oom_backoffs=600 rc=0
+10-09 19:47:27 analyze_2d rc=0
+10-09 19:47:27 2D FINISHED

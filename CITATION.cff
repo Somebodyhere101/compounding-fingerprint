@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, stimuli or results, please cite the paper."
+title: "A Compounding Fingerprint: Telling Abstraction from Exemplar Reuse in Context"
+authors:
+  - family-names: "Ramdan"
+    given-names: "Sam"
+    affiliation: "Independent Researcher"
+    email: "sr4729820@gmail.com"
+    orcid: "https://orcid.org/0009-0004-7723-4240"
+date-released: 2026-10-12
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/Somebodyhere101/compounding-fingerprint"
+preferred-citation:
+  type: unpublished
+  title: "A Compounding Fingerprint: Telling Abstraction from Exemplar Reuse in Context"
+  authors:
+    - family-names: "Ramdan"
+      given-names: "Sam"
+      affiliation: "Independent Researcher"
+      orcid: "https://orcid.org/0009-0004-7723-4240"
+  year: 2026
+  url: "https://github.com/Somebodyhere101/compounding-fingerprint"
+references:
+  - type: article
+    title: "A Single Direction Separates Computation from Retrieval in Transformer Hidden States"
+    authors:
+      - family-names: "Ramdan"
+        given-names: "Sam"
+        orcid: "https://orcid.org/0009-0004-7723-4240"
+    year: 2026
+    doi: "10.5281/zenodo.19455724"
+    publisher:
+      name: "Zenodo"

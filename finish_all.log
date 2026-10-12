@@ -1,0 +1,14 @@
+10-09 08:12:35 finisher started
+10-09 16:59:03 no queue running: checking artefacts
+10-09 16:59:03 START train:A6 (from step 13450) (attempt 1)
+10-09 17:02:41   resumed from step 13471
+10-09 17:02:41   DONE A6 step 14000 elapsed 3.4 min (active 3.3 min)
+10-09 17:02:41 END train:A6 (from step 13450) rc=0
+10-09 17:02:41 START eval:A6 (attempt 1)
+10-09 17:04:38   DONE A6: trials=1800 queries=57200 time=111s -> <repo>\exp3\res\A6.jsonl
+10-09 17:04:38 END eval:A6 rc=0
+10-09 17:04:57 analysis collect rc=0
+10-09 17:05:11 analysis analyze2 rc=0
+10-09 17:05:27 analysis analyze5 rc=0
+10-09 17:05:40 analysis figures rc=0
+10-09 17:05:40 ALL FINISHED

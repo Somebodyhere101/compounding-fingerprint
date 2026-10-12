@@ -1,0 +1,11 @@
+# GPU environment: scoring pretrained LMs (Exp. 1, 2, 4, 5), training and scoring the from-scratch networks (Exp. 3),
+# and scoring the In-Context Algebra model (Exp. 6). Python 3.12, CUDA 12.8; all runs used one 8 GB RTX 5070 laptop GPU.
+# Install torch from the CUDA index, e.g.  pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu128
+torch==2.7.1
+transformers==5.16.1
+bitsandbytes==0.50.2
+accelerate==1.15.0
+safetensors==0.8.0
+tokenizers==0.23.2
+huggingface_hub==1.33.0
+numpy==2.5.3

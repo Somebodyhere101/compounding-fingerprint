@@ -1,0 +1,9 @@
+n5_base_t0.jsonl done (100 trials, 25s)
+n6_base_t0.jsonl done (200 trials, 44s)
+n6_base_t1.jsonl done (300 trials, 130s)
+n6_leak_t1.jsonl done (400 trials, 216s)
+n6_heldout_t1.jsonl done (500 trials, 302s)
+n8_base_t0.jsonl done (600 trials, 362s)
+n8_base_t1.jsonl done (700 trials, 641s)
+n8_heldout_t1.jsonl done (800 trials, 921s)
+DONE res/ica_best_main_interleaved.jsonl 800 trials 921s

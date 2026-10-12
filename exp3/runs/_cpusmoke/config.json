@@ -1,0 +1,80 @@
+{
+ "args": {
+  "name": "_cpusmoke",
+  "out_root": "<repo>\\exp3\\runs",
+  "device": "cpu",
+  "seed": 0,
+  "orders": [
+   4,
+   5,
+   6
+  ],
+  "types": "noheld",
+  "t_min": 0,
+  "t_max": 2,
+  "k_frac": [
+   0.15,
+   0.45
+  ],
+  "S": 64,
+  "pool_M": 0,
+  "env_mix": "group=0.6,latin=0.2,loop=0.2",
+  "loss_on": "all",
+  "max_len": 2400,
+  "layers": 1,
+  "d_model": 32,
+  "heads": 2,
+  "pos": "rope",
+  "dropout": 0.0,
+  "lr": 0.0006,
+  "min_lr_frac": 0.1,
+  "warmup": 10,
+  "wd": 0.1,
+  "clip": 1.0,
+  "steps": 60,
+  "max_steps": 10,
+  "minutes": 5.0,
+  "tokens_per_step": 4096,
+  "micro_tokens": 2048,
+  "log_every": 5,
+  "eval_every": 1000,
+  "eval_seqs": 4,
+  "ckpt_every": 2000,
+  "resume": true
+ },
+ "data": {
+  "orders": [
+   4,
+   5,
+   6
+  ],
+  "types": "noheld",
+  "t_min": 0,
+  "t_max": 2,
+  "k_frac": [
+   0.15,
+   0.45
+  ],
+  "S": 64,
+  "pool_M": 0,
+  "env_mix": {
+   "group": 0.6,
+   "latin": 0.2,
+   "loop": 0.2
+  },
+  "max_len": 2400,
+  "loss_on": "all",
+  "seed": 0
+ },
+ "model": {
+  "vocab": 70,
+  "d_model": 32,
+  "n_layers": 1,
+  "n_heads": 2,
+  "max_len": 2400,
+  "pos": "rope",
+  "mlp_mult": 4,
+  "dropout": 0.0
+ },
+ "nparams": 14720
+}

@@ -1,0 +1,2 @@
+Qwen/Qwen3-8B-Base q8b_cal nf4 stim --kv_budget_gb 0.6 --batch 16
+Qwen/Qwen3-8B-Base q8b_main nf4 ../exp1/stim --kv_budget_gb 0.6 --batch 16

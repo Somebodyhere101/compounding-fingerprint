@@ -1,0 +1,4 @@
+Qwen/Qwen3-0.6B-Base q06b_cal none stim
+Qwen/Qwen3-0.6B-Base q06b_main none ../exp1/stim
+Qwen/Qwen3-1.7B q17_cal none stim
+HuggingFaceTB/SmolLM2-1.7B-Instruct smol17_cal none stim

@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\connection.py", line 1167, in rebuild_pipe_connection
+    handle = dh.detach()
+             ^^^^^^^^^^^
+  File "C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\reduction.py", line 131, in detach
+    return _winapi.DuplicateHandle(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied

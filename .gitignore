@@ -1,0 +1,21 @@
+# --- large binaries (not versioned; see README, "Not in this repository")
+# released In-Context Algebra checkpoints, 7 x 212 MB (re-download; sha256 in exp6/dl/weights_SHA256SUMS)
+exp6/dl/weights/
+# third-party code (github.com/ericwtodd/algebra @ 532a6a2) with its own git repo and license
+exp6/dl/upstream/
+# trained-network checkpoints, about 585 MB in total
+exp3/runs/**/*.pt
+# intermediate shards of the idealised-learner runs (merged into exp1/ideal/res/)
+exp1/ideal/parts/
+# compiled locally from exp1/ideal/code/latc.c (see README)
+exp1/ideal/code/*.dll
+exp1/ideal/code/*.so
+exp1/ideal/code/*.dylib
+# local copies of the In-Context Algebra project page (loss plot, directory listing), not redistributed
+exp6/dl/train_loss.png
+exp6/dl/models_index.html
+
+# --- build and tool artefacts
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,13 @@
+# Text files are stored with LF line endings; shell scripts must stay LF so that bash can run them.
+* text=auto
+*.sh text eol=lf
+# checksum list read by sha256sum -c, which fails on CRLF
+exp6/dl/weights_SHA256SUMS text eol=lf
+
+# Binary files: never convert or diff as text.
+*.pdf binary
+*.png binary
+*.zip binary
+*.npz binary
+*.pt binary
+*.dll binary

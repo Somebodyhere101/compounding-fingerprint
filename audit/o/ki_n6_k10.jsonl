@@ -1,0 +1,100 @@
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 0, "cls": {"G": 14, "O": 10, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 1, "cls": {"Ab": 12, "G": 4, "O": 8, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 2, "cls": {"G": 6, "O": 19, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 3, "cls": {"G": 14, "O": 12}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 4, "cls": {"G": 17, "O": 8, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 5, "cls": {"L": 2, "G": 12, "O": 12}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 6, "cls": {"G": 19, "O": 7}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 7, "cls": {"O": 22, "G": 4}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 8, "cls": {"U": 8, "O": 10, "G": 8}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 9, "cls": {"G": 17, "O": 9}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 10, "cls": {"L": 1, "O": 6, "G": 19}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 11, "cls": {"G": 18, "O": 7, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 12, "cls": {"G": 13, "O": 11, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 13, "cls": {"G": 18, "L": 4, "O": 4}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 14, "cls": {"O": 9, "L": 5, "G": 12}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 15, "cls": {"G": 15, "L": 1, "O": 10}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 16, "cls": {"O": 13, "G": 11, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 17, "cls": {"G": 14, "O": 10, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 18, "cls": {"O": 19, "G": 7}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 19, "cls": {"O": 10, "G": 16}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 20, "cls": {"G": 11, "O": 15}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 21, "cls": {"O": 15, "L": 4, "G": 7}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 22, "cls": {"O": 10, "G": 14, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 23, "cls": {"G": 13, "O": 13}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 24, "cls": {"O": 21, "G": 4, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 25, "cls": {"G": 14, "O": 10, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 26, "cls": {"G": 11, "O": 15}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 27, "cls": {"G": 16, "O": 10}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 28, "cls": {"L": 4, "O": 16, "G": 6}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 29, "cls": {"O": 18, "G": 8}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 30, "cls": {"O": 9, "G": 15, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 31, "cls": {"G": 9, "O": 12, "L": 5}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 32, "cls": {"U": 16, "O": 6, "G": 4}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 33, "cls": {"G": 11, "O": 12, "L": 3}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 34, "cls": {"G": 13, "O": 13}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 35, "cls": {"G": 20, "O": 6}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 36, "cls": {"O": 15, "G": 11}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 37, "cls": {"L": 2, "G": 11, "O": 13}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 38, "cls": {"G": 20, "O": 6}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 39, "cls": {"G": 18, "O": 8}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 40, "cls": {"O": 17, "G": 9}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 41, "cls": {"G": 15, "O": 10, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 42, "cls": {"L": 2, "O": 18, "G": 6}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 43, "cls": {"O": 13, "G": 11, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 44, "cls": {"O": 9, "G": 17}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 45, "cls": {"O": 16, "G": 10}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 46, "cls": {"G": 17, "O": 9}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 47, "cls": {"O": 25, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 48, "cls": {"G": 12, "O": 13, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 49, "cls": {"G": 13, "O": 13}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 50, "cls": {"G": 14, "O": 11, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 51, "cls": {"G": 12, "O": 13, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 52, "cls": {"G": 15, "O": 8, "L": 3}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 53, "cls": {"O": 21, "G": 4, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 54, "cls": {"G": 20, "O": 6}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 55, "cls": {"G": 11, "O": 15}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 56, "cls": {"G": 16, "O": 8, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 57, "cls": {"G": 14, "O": 10, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 58, "cls": {"U": 18, "L": 3, "O": 4, "G": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 59, "cls": {"G": 16, "O": 10}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 60, "cls": {"G": 18, "O": 8}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 61, "cls": {"G": 9, "O": 15, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 62, "cls": {"G": 9, "O": 17}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 63, "cls": {"L": 1, "O": 16, "G": 9}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 64, "cls": {"O": 11, "L": 1, "G": 14}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 65, "cls": {"O": 15, "G": 11}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 66, "cls": {"G": 4, "O": 21, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 67, "cls": {"G": 14, "O": 11, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 68, "cls": {"G": 11, "O": 13, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 69, "cls": {"G": 11, "O": 12, "L": 3}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 70, "cls": {"G": 9, "O": 16, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 71, "cls": {"G": 14, "O": 12}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 72, "cls": {"G": 9, "O": 15, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 73, "cls": {"O": 18, "G": 8}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 74, "cls": {"O": 19, "G": 6, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 75, "cls": {"G": 18, "L": 3, "O": 5}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 76, "cls": {"O": 8, "G": 18}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 77, "cls": {"L": 2, "O": 11, "G": 13}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 78, "cls": {"O": 17, "G": 9}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 79, "cls": {"G": 18, "L": 4, "O": 4}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 80, "cls": {"O": 19, "G": 6, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 81, "cls": {"O": 9, "G": 15, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 82, "cls": {"G": 16, "O": 10}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 83, "cls": {"O": 11, "G": 14, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 84, "cls": {"L": 3, "O": 19, "G": 4}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 85, "cls": {"G": 18, "O": 8}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 86, "cls": {"G": 19, "O": 5, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 87, "cls": {"O": 19, "L": 3, "G": 4}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 88, "cls": {"O": 14, "G": 10, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 89, "cls": {"L": 2, "G": 11, "O": 13}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 90, "cls": {"O": 9, "G": 16, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 91, "cls": {"O": 13, "G": 11, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 92, "cls": {"G": 13, "O": 11, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 93, "cls": {"G": 18, "O": 7, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 94, "cls": {"O": 8, "G": 18}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 95, "cls": {"G": 17, "O": 8, "L": 1}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 96, "cls": {"G": 13, "O": 11, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 97, "cls": {"G": 17, "O": 9}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 98, "cls": {"G": 3, "O": 9, "U": 12, "L": 2}}}
+{"summary": {"file": "ki_n6_k10.jsonl", "trial": 99, "cls": {"G": 15, "O": 10, "L": 1}}}

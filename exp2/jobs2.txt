@@ -1,0 +1,5 @@
+Qwen/Qwen3-1.7B-Base q17b_cal none stim
+Qwen/Qwen3-1.7B-Base q17b_main none ../exp1/stim
+Qwen/Qwen3-4B-Base q4b_cal nf4 stim
+Qwen/Qwen3-4B-Base q4b_main nf4 ../exp1/stim
+Qwen/Qwen3-1.7B-Base q17bnf4_main nf4 ../exp1/stim

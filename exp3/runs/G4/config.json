@@ -1,0 +1,84 @@
+{
+ "args": {
+  "name": "G4",
+  "out_root": "<repo>\\exp3\\runs",
+  "device": "cuda",
+  "seed": 0,
+  "orders": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "types": "noheld",
+  "t_min": 0,
+  "t_max": 4,
+  "k_frac": [
+   0.15,
+   0.45
+  ],
+  "S": 64,
+  "pool_M": 0,
+  "env_mix": "group=1",
+  "loss_on": "all",
+  "max_len": 2400,
+  "layers": 4,
+  "d_model": 256,
+  "heads": 8,
+  "pos": "rope",
+  "dropout": 0.0,
+  "lr": 0.0006,
+  "min_lr_frac": 0.1,
+  "warmup": 500,
+  "wd": 0.1,
+  "clip": 1.0,
+  "steps": 14000,
+  "max_steps": null,
+  "minutes": 90.0,
+  "tokens_per_step": 65536,
+  "micro_tokens": 16384,
+  "log_every": 50,
+  "eval_every": 1000,
+  "eval_seqs": 64,
+  "ckpt_every": 2000,
+  "resume": true
+ },
+ "data": {
+  "orders": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   10
+  ],
+  "types": "noheld",
+  "t_min": 0,
+  "t_max": 4,
+  "k_frac": [
+   0.15,
+   0.45
+  ],
+  "S": 64,
+  "pool_M": 0,
+  "env_mix": {
+   "group": 1.0
+  },
+  "max_len": 2400,
+  "loss_on": "all",
+  "seed": 0
+ },
+ "model": {
+  "vocab": 70,
+  "d_model": 256,
+  "n_layers": 4,
+  "n_heads": 8,
+  "max_len": 2400,
+  "pos": "rope",
+  "mlp_mult": 4,
+  "dropout": 0.0
+ },
+ "nparams": 3168256
+}

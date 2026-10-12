@@ -1,0 +1,39 @@
+{
+  "args": {
+    "task_name": "mixrosette",
+    "task_config": {
+      "num_symbols": 16,
+      "max_order": 10,
+      "holdout_zero": true
+    },
+    "k_shots": 200,
+    "multi_runs": false,
+    "n_layers": 4,
+    "n_heads": 8,
+    "d_model": 1024,
+    "d_mlp": 4096,
+    "block_size": 1024,
+    "positional_encoding": "rope",
+    "output_dir": "outputs",
+    "batch_size": 128,
+    "leftpad": false,
+    "n_steps": 200001,
+    "lr": 1e-05,
+    "lr_warmup_steps": 1000,
+    "evaluation_steps": 100,
+    "checkpoint_steps": 5000,
+    "final_token_only": false,
+    "use_wandb": true,
+    "wandb_entity": null,
+    "wandb_project": null,
+    "wandb_run_name": null
+  },
+  "model_params": {
+    "n_embd": 1024,
+    "n_layer": 4,
+    "n_head": 8,
+    "block_size": 1024,
+    "vocab_size": 32,
+    "positional_encoding": "rope"
+  }
+}

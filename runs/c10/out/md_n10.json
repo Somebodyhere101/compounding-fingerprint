@@ -1,0 +1,64 @@
+{
+ "Z10": {
+  "md": 5,
+  "cue": [
+   [
+    1,
+    5,
+    6
+   ],
+   [
+    1,
+    9,
+    0
+   ],
+   [
+    2,
+    7,
+    9
+   ],
+   [
+    4,
+    3,
+    7
+   ],
+   [
+    8,
+    6,
+    4
+   ]
+  ],
+  "lower_bound_note": "no defining cue of size 4 (infeasible relaxation) or from kmin"
+ },
+ "D5": {
+  "md": 5,
+  "cue": [
+   [
+    1,
+    4,
+    7
+   ],
+   [
+    2,
+    4,
+    8
+   ],
+   [
+    2,
+    6,
+    7
+   ],
+   [
+    3,
+    9,
+    1
+   ],
+   [
+    4,
+    1,
+    5
+   ]
+  ],
+  "lower_bound_note": "no defining cue of size 4 (infeasible relaxation) or from kmin"
+ }
+}

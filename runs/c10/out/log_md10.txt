@@ -1,0 +1,9 @@
+Z10: |Aut|=4, labelled tables=907200 (12s)
+D5: |Aut|=20, labelled tables=181440 (24s)
+total labelled groups of order 10: 1088640 (OEIS A034383: 1088640)
+  round 1 k= 5 violations 4
+  round 2 k= 5 violations 6
+  round 3 k= 5 violations 10
+  round 4 k= 5 violations 13
+  round 5 k= 5 violations 5
+  round 6 k= 5 violations 3

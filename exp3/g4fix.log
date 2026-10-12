@@ -1,0 +1,5 @@
+START G4 resume 16:38:19
+resumed from step 9934
+DONE G4 step 14000 elapsed 17.4 min (active 17.4 min)
+DONE G4: trials=1800 queries=57200 time=93s -> <repo>\exp3\res\G4.jsonl
+G4FIX FINISHED 16:57:37

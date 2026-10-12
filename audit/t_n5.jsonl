@@ -1,0 +1,10 @@
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 0, "cls": {"O": 14, "L": 5}}}
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 10, "cls": {"O": 17, "L": 2}}}
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 20, "cls": {"O": 17, "L": 2}}}
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 30, "cls": {"O": 10, "G": 8, "L": 1}}}
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 40, "cls": {"O": 17, "L": 2}}}
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 50, "cls": {"G": 13, "O": 6}}}
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 60, "cls": {"O": 6, "L": 2, "G": 11}}}
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 70, "cls": {"G": 10, "O": 6, "L": 3}}}
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 80, "cls": {"O": 19}}}
+{"summary": {"file": "n5_base_t4.jsonl", "trial": 90, "cls": {"G": 8, "O": 10, "L": 1}}}

@@ -1,0 +1,60 @@
+START llm:q17b_main 16:48:56
+loaded Qwen/Qwen3-1.7B-Base quant=none offload_head=False vram=3.21GiB
+DONE Qwen/Qwen3-1.7B-Base: trials=761 queries=32986 time=738s fallback=0 peakVRAM=4.73GiB multi_token_words=[] oom_backoffs=1200
+END llm:q17b_main 17:01:35
+START llm:q17bnf4_main 17:01:35
+loaded Qwen/Qwen3-1.7B-Base quant=nf4 offload_head=False vram=1.26GiB
+DONE Qwen/Qwen3-1.7B-Base: trials=1800 queries=57200 time=808s fallback=0 peakVRAM=4.41GiB multi_token_words=[] oom_backoffs=0
+END llm:q17bnf4_main 17:15:27
+START llm:olmo1b_cal 17:15:27
+loaded allenai/OLMo-2-0425-1B quant=none offload_head=False vram=2.77GiB
+DONE allenai/OLMo-2-0425-1B: trials=1000 queries=18000 time=211s fallback=0 peakVRAM=4.70GiB multi_token_words=[] oom_backoffs=799
+END llm:olmo1b_cal 17:19:18
+START llm:olmo1b_main 17:19:18
+loaded allenai/OLMo-2-0425-1B quant=none offload_head=False vram=2.77GiB
+DONE allenai/OLMo-2-0425-1B: trials=1800 queries=57200 time=810s fallback=0 peakVRAM=4.67GiB multi_token_words=[] oom_backoffs=1898
+END llm:olmo1b_main 17:33:10
+START llm:olmo7b_cal 17:33:10
+Some parameters are on the meta device because they were offloaded to the cpu.
+loaded allenai/OLMo-2-1124-7B quant=nf4 offload_head=True vram=3.12GiB
+DONE allenai/OLMo-2-1124-7B: trials=950 queries=16700 time=2163s fallback=0 peakVRAM=4.01GiB multi_token_words=[] oom_backoffs=0
+END llm:olmo7b_cal 18:10:25
+START llm:olmo7b_main 18:10:25
+Some parameters are on the meta device because they were offloaded to the cpu.
+loaded allenai/OLMo-2-1124-7B quant=nf4 offload_head=True vram=3.12GiB
+DONE allenai/OLMo-2-1124-7B: trials=1800 queries=57200 time=8173s fallback=0 peakVRAM=4.13GiB multi_token_words=[] oom_backoffs=0
+END llm:olmo7b_main 20:27:47
+START exp4:cot 20:27:47
+END exp4:cot 20:49:47
+START train:A2 20:49:48
+DONE A2 step 14000 elapsed 32.4 min
+END train:A2 21:22:25
+DONE A2: trials=1800 queries=57200 time=55s -> <repo>\exp3\res\A2.jsonl
+EVALED train:A2 21:23:25
+START train:G4 21:23:25
+DONE G4 step 9934 elapsed 234.6 min
+END train:G4 01:18:13
+DONE G4: trials=1800 queries=57200 time=14586s -> <repo>\exp3\res\G4.jsonl
+EVALED train:G4 07:46:33
+START train:A6 07:46:33
+DONE A6 step 13471 elapsed 242.5 min
+END train:A6 11:49:19
+DONE A6: trials=1800 queries=57200 time=121s -> <repo>\exp3\res\A6.jsonl
+EVALED train:A6 11:51:32
+START llm:q17b_cal 11:51:32
+loaded Qwen/Qwen3-1.7B-Base quant=none offload_head=False vram=3.21GiB
+DONE Qwen/Qwen3-1.7B-Base: trials=300 queries=4200 time=117s fallback=0 peakVRAM=4.70GiB multi_token_words=[] oom_backoffs=200
+END llm:q17b_cal 11:53:53
+START llm:q06b_cal 11:53:53
+loaded Qwen/Qwen3-0.6B-Base quant=none offload_head=False vram=1.11GiB
+DONE Qwen/Qwen3-0.6B-Base: trials=300 queries=4200 time=85s fallback=0 peakVRAM=3.41GiB multi_token_words=[] oom_backoffs=0
+END llm:q06b_cal 11:55:34
+START llm:q17_cal 11:55:34
+loaded Qwen/Qwen3-1.7B quant=none offload_head=False vram=3.21GiB
+DONE Qwen/Qwen3-1.7B: trials=300 queries=4200 time=179s fallback=0 peakVRAM=4.70GiB multi_token_words=[] oom_backoffs=200
+END llm:q17_cal 11:58:54
+START llm:smol17_cal 11:58:54
+loaded HuggingFaceTB/SmolLM2-1.7B-Instruct quant=none offload_head=False vram=3.19GiB
+DONE HuggingFaceTB/SmolLM2-1.7B-Instruct: trials=300 queries=4200 time=205s fallback=0 peakVRAM=4.71GiB multi_token_words=[] oom_backoffs=300
+END llm:smol17_cal 12:02:56
+MASTER2 FINISHED 12:02:56

@@ -1,0 +1,41 @@
+{
+ "n_sequences": 1024,
+ "checkpoints": {
+  "algebra_gpt_best.pt": {
+   "acc": 0.958984375,
+   "acc_first_512": 0.962890625,
+   "acc_last_512": 0.955078125
+  },
+  "algebra_gpt_100000.pt": {
+   "acc": 0.9599609375,
+   "acc_first_512": 0.9609375,
+   "acc_last_512": 0.958984375
+  },
+  "algebra_gpt_40000.pt": {
+   "acc": 0.974609375,
+   "acc_first_512": 0.982421875,
+   "acc_last_512": 0.966796875
+  },
+  "algebra_gpt_20000.pt": {
+   "acc": 0.970703125,
+   "acc_first_512": 0.970703125,
+   "acc_last_512": 0.970703125
+  },
+  "algebra_gpt_10000.pt": {
+   "acc": 0.8349609375,
+   "acc_first_512": 0.81640625,
+   "acc_last_512": 0.853515625
+  }
+ },
+ "error_overlap_with_best": {
+  "algebra_gpt_100000.pt": "38 of best 42 / own 41",
+  "algebra_gpt_40000.pt": "9 of best 42 / own 26",
+  "algebra_gpt_20000.pt": "9 of best 42 / own 30",
+  "algebra_gpt_10000.pt": "12 of best 42 / own 169"
+ },
+ "independent_forward": {
+  "max_abs_logit_diff": 0.00019073486328125,
+  "answer_positions": 3200,
+  "argmax_agreement": 1.0
+ }
+}

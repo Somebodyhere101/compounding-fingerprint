@@ -1,0 +1,23 @@
+shard 3: 10/225 trials, 710s
+shard 3: 20/225 trials, 2287s
+shard 3: 30/225 trials, 2574s
+shard 3: 40/225 trials, 2574s
+shard 3: 50/225 trials, 2575s
+shard 3: 60/225 trials, 2575s
+shard 3: 70/225 trials, 2576s
+shard 3: 80/225 trials, 2578s
+shard 3: 90/225 trials, 2578s
+shard 3: 100/225 trials, 2578s
+shard 3: 110/225 trials, 2578s
+shard 3: 120/225 trials, 2578s
+shard 3: 130/225 trials, 2578s
+shard 3: 140/225 trials, 2578s
+shard 3: 150/225 trials, 2579s
+shard 3: 160/225 trials, 2579s
+shard 3: 170/225 trials, 2579s
+shard 3: 180/225 trials, 2579s
+shard 3: 190/225 trials, 2579s
+shard 3: 200/225 trials, 2579s
+shard 3: 210/225 trials, 2579s
+shard 3: 220/225 trials, 2579s
+SHARD 3 DONE 225 trials in 2579s

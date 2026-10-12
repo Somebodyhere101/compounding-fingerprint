@@ -1,0 +1,6 @@
+START exp4:cot2 14:42:02
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights: 100%|##########| 311/311 [00:00<00:00, 3411.01it/s]
+kso_n6_k28.jsonl done, 3477s
+ks_n6_k28.jsonl done, 6902s
+DONE cot
+END exp4:cot2 16:37:26

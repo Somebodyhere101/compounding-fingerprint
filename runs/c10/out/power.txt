@@ -1,0 +1,31 @@
+predicted means (n=6, k=10):
+   R {'L0': 0.167, 'G0': 0.167, 'G1': 0.167, 'G4': 0.167, 'Gs4': 0.167, 'Gh4': 0.167}
+   N {'L0': 1.0, 'G0': 0.298, 'G1': 0.298, 'G4': 0.298, 'Gs4': 0.298, 'Gh4': 0.297}
+   Niso {'L0': 1.0, 'G0': 0.298, 'G1': 0.653, 'G4': 0.957, 'Gs4': 0.298, 'Gh4': 0.308}
+   A {'L0': 1.0, 'G0': 0.298, 'G1': 1.0, 'G4': 1.0, 'Gs4': 0.298, 'Gh4': 1.0}
+   B {'L0': 1.0, 'G0': 1.0, 'G1': 1.0, 'G4': 1.0, 'Gs4': 1.0, 'Gh4': 1.0}
+   Bh {'L0': 1.0, 'G0': 1.0, 'G1': 1.0, 'G4': 1.0, 'Gs4': 0.298, 'Gh4': 1.0}
+lapse=0.0 rho=0.3 N=  25 trials/cell: mean correct-classification=0.996  R->{'N': 0.0025, 'R': 0.9975}  N->{'A': 0.0025, 'N': 0.98, 'Niso': 0.0175}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 1.0}  Bh->{'B': 1.0}
+lapse=0.0 rho=0.3 N=  50 trials/cell: mean correct-classification=1.000  R->{'R': 1.0}  N->{'N': 1.0}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 1.0}  Bh->{'B': 1.0}
+lapse=0.0 rho=0.3 N= 100 trials/cell: mean correct-classification=1.000  R->{'R': 1.0}  N->{'N': 1.0}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 1.0}  Bh->{'B': 1.0}
+lapse=0.0 rho=0.3 N= 200 trials/cell: mean correct-classification=1.000  R->{'R': 1.0}  N->{'N': 1.0}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 1.0}  Bh->{'B': 1.0}
+lapse=0.0 rho=0.6 N=  25 trials/cell: mean correct-classification=0.993  R->{'N': 0.0025, 'R': 0.9975}  N->{'A': 0.015, 'N': 0.9625, 'Niso': 0.0225}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 1.0}  Bh->{'B': 1.0}
+lapse=0.0 rho=0.6 N=  50 trials/cell: mean correct-classification=0.998  R->{'R': 1.0}  N->{'A': 0.0025, 'N': 0.9875, 'Niso': 0.01}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 1.0}  Bh->{'B': 1.0}
+lapse=0.0 rho=0.6 N= 100 trials/cell: mean correct-classification=1.000  R->{'R': 1.0}  N->{'N': 1.0}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 1.0}  Bh->{'B': 1.0}
+lapse=0.0 rho=0.6 N= 200 trials/cell: mean correct-classification=1.000  R->{'R': 1.0}  N->{'N': 1.0}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 1.0}  Bh->{'B': 1.0}
+lapse=0.2 rho=0.3 N=  25 trials/cell: mean correct-classification=0.958  R->{'R': 1.0}  N->{'A': 0.01, 'N': 0.9625, 'Niso': 0.0275}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 0.895, 'N': 0.1025, 'Niso': 0.0025}  Bh->{'A': 0.01, 'B': 0.89, 'N': 0.095, 'Niso': 0.005}
+lapse=0.2 rho=0.3 N=  50 trials/cell: mean correct-classification=0.993  R->{'R': 1.0}  N->{'N': 0.9925, 'Niso': 0.0075}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 0.9875, 'N': 0.0125}  Bh->{'B': 0.975, 'N': 0.025}
+lapse=0.2 rho=0.3 N= 100 trials/cell: mean correct-classification=0.999  R->{'R': 1.0}  N->{'N': 1.0}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 0.995, 'N': 0.005}  Bh->{'B': 1.0}
+lapse=0.2 rho=0.3 N= 200 trials/cell: mean correct-classification=1.000  R->{'R': 1.0}  N->{'N': 1.0}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 0.9975, 'N': 0.0025}  Bh->{'B': 1.0}
+lapse=0.2 rho=0.6 N=  25 trials/cell: mean correct-classification=0.943  R->{'R': 1.0}  N->{'A': 0.0075, 'N': 0.9275, 'Niso': 0.065}  Niso->{'Niso': 1.0}  A->{'A': 0.9975, 'Niso': 0.0025}  B->{'A': 0.005, 'B': 0.87, 'N': 0.125}  Bh->{'A': 0.02, 'B': 0.86, 'N': 0.0925, 'Niso': 0.0275}
+lapse=0.2 rho=0.6 N=  50 trials/cell: mean correct-classification=0.972  R->{'R': 1.0}  N->{'A': 0.0025, 'N': 0.96, 'Niso': 0.0375}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'A': 0.0025, 'B': 0.9475, 'N': 0.045, 'Niso': 0.005}  Bh->{'A': 0.0075, 'B': 0.9225, 'N': 0.0575, 'Niso': 0.0125}
+lapse=0.2 rho=0.6 N= 100 trials/cell: mean correct-classification=0.996  R->{'R': 1.0}  N->{'N': 0.9975, 'Niso': 0.0025}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 0.9925, 'N': 0.0075}  Bh->{'B': 0.9875, 'N': 0.0125}
+lapse=0.2 rho=0.6 N= 200 trials/cell: mean correct-classification=1.000  R->{'R': 1.0}  N->{'N': 1.0}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 1.0}  Bh->{'B': 1.0}
+lapse=0.4 rho=0.3 N=  25 trials/cell: mean correct-classification=0.906  R->{'N': 0.0025, 'R': 0.9975}  N->{'A': 0.015, 'N': 0.9375, 'Niso': 0.045, 'R': 0.0025}  Niso->{'A': 0.0025, 'Niso': 0.9925, 'R': 0.005}  A->{'A': 0.9775, 'Niso': 0.0175, 'R': 0.005}  B->{'A': 0.01, 'B': 0.7575, 'N': 0.2175, 'Niso': 0.005, 'R': 0.01}  Bh->{'A': 0.03, 'B': 0.7725, 'N': 0.175, 'Niso': 0.015, 'R': 0.0075}
+lapse=0.4 rho=0.3 N=  50 trials/cell: mean correct-classification=0.945  R->{'R': 1.0}  N->{'A': 0.0075, 'N': 0.9725, 'Niso': 0.02}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'A': 0.0025, 'B': 0.8725, 'N': 0.1225, 'Niso': 0.0025}  Bh->{'A': 0.02, 'B': 0.8275, 'N': 0.1425, 'Niso': 0.01}
+lapse=0.4 rho=0.3 N= 100 trials/cell: mean correct-classification=0.974  R->{'R': 1.0}  N->{'N': 0.995, 'Niso': 0.005}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 0.9325, 'N': 0.0675}  Bh->{'A': 0.0025, 'B': 0.915, 'N': 0.08, 'Niso': 0.0025}
+lapse=0.4 rho=0.3 N= 200 trials/cell: mean correct-classification=0.995  R->{'R': 1.0}  N->{'N': 1.0}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 0.98, 'N': 0.02}  Bh->{'B': 0.99, 'N': 0.01}
+lapse=0.4 rho=0.6 N=  25 trials/cell: mean correct-classification=0.880  R->{'R': 1.0}  N->{'A': 0.0275, 'B': 0.0025, 'N': 0.8875, 'Niso': 0.075, 'R': 0.0075}  Niso->{'A': 0.0025, 'Niso': 0.9875, 'R': 0.01}  A->{'A': 0.9525, 'N': 0.0025, 'Niso': 0.04, 'R': 0.005}  B->{'A': 0.0075, 'B': 0.72, 'N': 0.235, 'Niso': 0.0325, 'R': 0.005}  Bh->{'A': 0.0625, 'B': 0.735, 'N': 0.1575, 'Niso': 0.0425, 'R': 0.0025}
+lapse=0.4 rho=0.6 N=  50 trials/cell: mean correct-classification=0.939  R->{'R': 1.0}  N->{'A': 0.01, 'N': 0.9575, 'Niso': 0.0325}  Niso->{'Niso': 1.0}  A->{'A': 0.995, 'Niso': 0.005}  B->{'A': 0.005, 'B': 0.855, 'N': 0.13, 'Niso': 0.01}  Bh->{'A': 0.045, 'B': 0.825, 'N': 0.1, 'Niso': 0.03}
+lapse=0.4 rho=0.6 N= 100 trials/cell: mean correct-classification=0.972  R->{'R': 1.0}  N->{'A': 0.0025, 'N': 0.9875, 'Niso': 0.01}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 0.925, 'N': 0.0725, 'Niso': 0.0025}  Bh->{'A': 0.005, 'B': 0.9175, 'N': 0.0675, 'Niso': 0.01}
+lapse=0.4 rho=0.6 N= 200 trials/cell: mean correct-classification=0.992  R->{'R': 1.0}  N->{'N': 0.995, 'Niso': 0.005}  Niso->{'Niso': 1.0}  A->{'A': 1.0}  B->{'B': 0.9725, 'N': 0.0275}  Bh->{'A': 0.0025, 'B': 0.9825, 'N': 0.015}

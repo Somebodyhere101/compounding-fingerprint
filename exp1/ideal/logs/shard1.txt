@@ -1,0 +1,23 @@
+shard 1: 10/225 trials, 646s
+shard 1: 20/225 trials, 2115s
+shard 1: 30/225 trials, 2452s
+shard 1: 40/225 trials, 2453s
+shard 1: 50/225 trials, 2453s
+shard 1: 60/225 trials, 2455s
+shard 1: 70/225 trials, 2456s
+shard 1: 80/225 trials, 2458s
+shard 1: 90/225 trials, 2458s
+shard 1: 100/225 trials, 2458s
+shard 1: 110/225 trials, 2458s
+shard 1: 120/225 trials, 2458s
+shard 1: 130/225 trials, 2458s
+shard 1: 140/225 trials, 2458s
+shard 1: 150/225 trials, 2458s
+shard 1: 160/225 trials, 2459s
+shard 1: 170/225 trials, 2459s
+shard 1: 180/225 trials, 2459s
+shard 1: 190/225 trials, 2459s
+shard 1: 200/225 trials, 2459s
+shard 1: 210/225 trials, 2459s
+shard 1: 220/225 trials, 2459s
+SHARD 1 DONE 225 trials in 2459s

@@ -1,0 +1,23 @@
+shard 6: 10/225 trials, 613s
+shard 6: 20/225 trials, 2076s
+shard 6: 30/225 trials, 2368s
+shard 6: 40/225 trials, 2368s
+shard 6: 50/225 trials, 2369s
+shard 6: 60/225 trials, 2373s
+shard 6: 70/225 trials, 2374s
+shard 6: 80/225 trials, 2375s
+shard 6: 90/225 trials, 2375s
+shard 6: 100/225 trials, 2376s
+shard 6: 110/225 trials, 2376s
+shard 6: 120/225 trials, 2376s
+shard 6: 130/225 trials, 2376s
+shard 6: 140/225 trials, 2376s
+shard 6: 150/225 trials, 2376s
+shard 6: 160/225 trials, 2376s
+shard 6: 170/225 trials, 2376s
+shard 6: 180/225 trials, 2376s
+shard 6: 190/225 trials, 2376s
+shard 6: 200/225 trials, 2377s
+shard 6: 210/225 trials, 2377s
+shard 6: 220/225 trials, 2377s
+SHARD 6 DONE 225 trials in 2377s

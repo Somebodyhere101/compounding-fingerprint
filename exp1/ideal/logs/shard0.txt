@@ -1,0 +1,23 @@
+shard 0: 10/225 trials, 673s
+shard 0: 20/225 trials, 2103s
+shard 0: 30/225 trials, 2317s
+shard 0: 40/225 trials, 2318s
+shard 0: 50/225 trials, 2319s
+shard 0: 60/225 trials, 2321s
+shard 0: 70/225 trials, 2326s
+shard 0: 80/225 trials, 2327s
+shard 0: 90/225 trials, 2327s
+shard 0: 100/225 trials, 2327s
+shard 0: 110/225 trials, 2328s
+shard 0: 120/225 trials, 2328s
+shard 0: 130/225 trials, 2328s
+shard 0: 140/225 trials, 2328s
+shard 0: 150/225 trials, 2328s
+shard 0: 160/225 trials, 2328s
+shard 0: 170/225 trials, 2328s
+shard 0: 180/225 trials, 2329s
+shard 0: 190/225 trials, 2329s
+shard 0: 200/225 trials, 2329s
+shard 0: 210/225 trials, 2329s
+shard 0: 220/225 trials, 2329s
+SHARD 0 DONE 225 trials in 2329s

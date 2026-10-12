@@ -1,0 +1,14 @@
+Qwen/Qwen3-4B-Base q4b_cal nf4 stim
+Qwen/Qwen3-4B-Base q4b_main nf4 ../exp1/stim
+Qwen/Qwen3-8B-Base q8b_cal nf4 stim --kv_budget_gb 0.6 --batch 16
+Qwen/Qwen3-8B-Base q8b_main nf4 ../exp1/stim --kv_budget_gb 0.6 --batch 16
+allenai/OLMo-2-1124-7B olmo7b_cal nf4 stim --kv_budget_gb 0.5 --batch 16
+allenai/OLMo-2-1124-7B olmo7b_main nf4 ../exp1/stim --kv_budget_gb 0.5 --batch 16
+allenai/OLMo-2-0425-1B olmo1b_cal none stim
+allenai/OLMo-2-0425-1B olmo1b_main none ../exp1/stim
+Qwen/Qwen3-1.7B-Base q17b_main none ../exp1/stim
+Qwen/Qwen3-1.7B-Base q17bnf4_main nf4 ../exp1/stim
+Qwen/Qwen3-1.7B-Base q17b_cal none stim
+Qwen/Qwen3-0.6B-Base q06b_cal none stim
+Qwen/Qwen3-1.7B q17_cal none stim
+HuggingFaceTB/SmolLM2-1.7B-Instruct smol17_cal none stim

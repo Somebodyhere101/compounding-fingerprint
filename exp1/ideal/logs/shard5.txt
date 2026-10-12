@@ -1,0 +1,23 @@
+shard 5: 10/225 trials, 680s
+shard 5: 20/225 trials, 2110s
+shard 5: 30/225 trials, 2353s
+shard 5: 40/225 trials, 2354s
+shard 5: 50/225 trials, 2355s
+shard 5: 60/225 trials, 2356s
+shard 5: 70/225 trials, 2361s
+shard 5: 80/225 trials, 2362s
+shard 5: 90/225 trials, 2362s
+shard 5: 100/225 trials, 2362s
+shard 5: 110/225 trials, 2362s
+shard 5: 120/225 trials, 2363s
+shard 5: 130/225 trials, 2363s
+shard 5: 140/225 trials, 2363s
+shard 5: 150/225 trials, 2363s
+shard 5: 160/225 trials, 2363s
+shard 5: 170/225 trials, 2363s
+shard 5: 180/225 trials, 2363s
+shard 5: 190/225 trials, 2363s
+shard 5: 200/225 trials, 2364s
+shard 5: 210/225 trials, 2364s
+shard 5: 220/225 trials, 2364s
+SHARD 5 DONE 225 trials in 2364s
