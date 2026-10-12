@@ -61,7 +61,7 @@ Every deviation from the preregistrations is listed in Appendix G of the paper a
    cd paper/manuscript && python build.py && cd ../..
    ```
 
-On Windows with the pinned packages, each step regenerates its committed outputs byte for byte, so `git status` stays clean; the one exception is `paper.pdf`, which differs only in its creation date. On other systems this was not tested: the numbers and text should match, but figure files and `paper.pdf` may differ in their bytes. `exp6/loop_level.py` recomputes the exact loop-level baseline. It needs `python-sat` and the engine in `runs/c10/code/`, and it is resumable: delete `exp6/res/loop_level.jsonl` to recompute from scratch. `paper/manuscript/build.py` prints the PDF with a locally installed Chrome, Chromium or Edge; use `--no-pdf` to skip that step.
+On Windows with the pinned packages and MiKTeX 25.12, each step regenerates its committed outputs byte for byte, including `paper.pdf`, so `git status` stays clean. On other systems this was not tested: the numbers and text should match, but figure files and `paper.pdf` may differ in their bytes. `exp6/loop_level.py` recomputes the exact loop-level baseline. It needs `python-sat` and the engine in `runs/c10/code/`, and it is resumable: delete `exp6/res/loop_level.jsonl` to recompute from scratch. `paper/manuscript/build.py` compiles `paper.pdf` from the arXiv bundle with pdfLaTeX (MiKTeX or TeX Live) when one is installed, and otherwise prints `paper.html` with a local Chrome, Chromium or Edge; use `--no-pdf` to skip that step.
 
 ## Re-running the GPU experiments
 The GPU scripts were run on Windows and contain local paths. Edit them before re-running:

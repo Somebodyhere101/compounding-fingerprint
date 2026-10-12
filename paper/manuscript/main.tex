@@ -12,6 +12,7 @@
 \usepackage{xcolor}
 \usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
 \usepackage{url}
+\hypersetup{pdftitle={A Compounding Fingerprint: Telling Abstraction from Exemplar Reuse in Context},pdfauthor={Sam Ramdan}}
 \setlength{\parskip}{2pt}
 \renewcommand{\topfraction}{0.85}
 \renewcommand{\textfraction}{0.1}
@@ -19,6 +20,8 @@
 \setcounter{topnumber}{3}
 \setcounter{totalnumber}{4}
 \extrafloats{40}
+\widowpenalty=10000
+\clubpenalty=10000
 \usepackage[section]{placeins}
 \title{A Compounding Fingerprint: Telling Abstraction from Exemplar Reuse in Context}
 \author{Sam Ramdan\\ {\small Independent Researcher}\\ {\small \texttt{sr4729820@gmail.com} \quad ORCID \href{https://orcid.org/0009-0004-7723-4240}{0009-0004-7723-4240}}\\[4pt] {\small\itshape Prepared with substantial AI assistance (Claude, Anthropic); see Statements.}}
@@ -116,7 +119,7 @@ The fingerprint compares G-cell accuracy across five history conditions (Table~\
 \centering
 \small
 \caption{The five history conditions. Each trial has t history tables followed by one partial target table.}\label{tab:conditions}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=0.4704\hsize}X>{\raggedright\arraybackslash\hsize=2.1136\hsize}X>{\raggedright\arraybackslash\hsize=0.7530\hsize}X>{\raggedright\arraybackslash\hsize=0.6630\hsize}X@{}}
 \toprule
 condition & history & target & controls for \\
 \midrule
@@ -159,7 +162,7 @@ The decision rule (Table~\ref{tab:rule}) was \emph{preregistered} and frozen bef
 \centering
 \small
 \caption{The preregistered decision rule, applied in order; the first step whose criterion holds assigns the class. G t0, G t4, G scr4 and G held4 are G-cell accuracies at base t=0, base t=4, scramble t=4 and held-out t=4.}\label{tab:rule}
-\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash\hsize=1.9520\hsize}X>{\raggedright\arraybackslash\hsize=0.6774\hsize}X>{\raggedright\arraybackslash\hsize=0.3706\hsize}X@{}}
 \toprule
 step & quantity & criterion & class \\
 \midrule
@@ -188,7 +191,7 @@ We scored nine checkpoints (ten model--precision configurations) from three fami
 \centering
 \small
 \caption{Pretrained models and the experiments that used them (2a: calibration sweep only). All checkpoints are ungated and Apache-2.0 licensed. \textsuperscript{\dag} nf4, with the caveat of the failed quantisation control; Qwen3-1.7B-Base ran in nf4 on the main trials only.}\label{tab:models}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xll>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=1.3735\hsize}Xll>{\raggedright\arraybackslash\hsize=1.0549\hsize}X>{\raggedright\arraybackslash\hsize=0.5716\hsize}X@{}}
 \toprule
 model & family & training & precision & experiments \\
 \midrule
@@ -265,7 +268,7 @@ We scored the seven preregistered exact learners (Section~\ref{sec:learners}) on
 \centering
 \small
 \caption{Idealised learners on the identical trials (n=6; accuracy on associativity-forced cells, chance 0.167). Class is the rule's verdict at n=6 and at n=8. t4 $-$ scr is G accuracy at t=4 minus the length-matched scramble history; shape is g(G t4) $-$ g(G t1); $w$ = held/comp is given only where comp is clearly above 0. Learner C was added post hoc.}\label{tab:learners}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=1.2632\hsize}Xl>{\raggedright\arraybackslash\hsize=1.1001\hsize}X>{\raggedright\arraybackslash\hsize=0.7500\hsize}X>{\raggedright\arraybackslash\hsize=1.7288\hsize}X>{\raggedright\arraybackslash\hsize=0.7500\hsize}X>{\raggedright\arraybackslash\hsize=0.4079\hsize}X@{}}
 \toprule
 learner & class & G, t=0 $\to$ t=4 & held-out G, t=4 & t4 $-$ scr [95\% CI] & shape [95\% CI] & $w$ \\
 \midrule
@@ -419,7 +422,7 @@ Among the learned networks, the 6-layer A6 is the only exception, and a small on
 \centering
 \small
 \caption{Trained networks: preregistered predictions against observed classes (n=6). t4 $-$ scr is G accuracy at t=4 minus the scramble history; held-out G is G accuracy on held-out types at t=4 (chance 0.167). P4 is \emph{not learned} under the preregistered learning-failure rule and is excluded from method validation.}\label{tab:trained}
-\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash\hsize=1.1221\hsize}X>{\raggedright\arraybackslash\hsize=0.8013\hsize}X>{\raggedright\arraybackslash\hsize=0.7192\hsize}X>{\raggedright\arraybackslash\hsize=1.6729\hsize}X>{\raggedright\arraybackslash\hsize=0.7192\hsize}X>{\raggedright\arraybackslash\hsize=0.9653\hsize}X@{}}
 \toprule
 run & diet & predicted & observed & t4 $-$ scr [95\% CI] & held-out G & prediction \\
 \midrule
@@ -474,7 +477,7 @@ In raw format, without the chat template (exploratory), the sign changes. Base e
 \centering
 \small
 \caption{The CR axis on the fingerprint stimuli at the detector layer. Experiment 5 (preregistered H1, detector format): base $-$ leak projection with 95\% trial-bootstrap CI, Cohen's d and query-level AUC (base $>$ leak); raw-format d is exploratory. Experiment 5b (exploratory, detector format): $f_{\mathrm{vocab}}$ is the share of the base--leak gap reproduced by vocabulary alone, and leakRel $-$ leak (predicted $>$ 0) is the paired effect with vocabulary fixed. \textsuperscript{\dag} nf4.}\label{tab:cr}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}Xll>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=1.1741\hsize}X>{\raggedright\arraybackslash\hsize=1.6437\hsize}Xll>{\raggedright\arraybackslash\hsize=0.4296\hsize}X>{\raggedright\arraybackslash\hsize=1.1741\hsize}X>{\raggedright\arraybackslash\hsize=0.5785\hsize}X@{}}
 \toprule
 model & base $-$ leak [95\% CI] & d & AUC & raw d & $f_{\mathrm{vocab}}$ [95\% CI] & leakRel $-$ leak $d_z$ \\
 \midrule
@@ -515,7 +518,7 @@ Only cells with t $\leq$ 1 fit the model's vocabulary, so the compounding contra
 \centering
 \small
 \caption{The released In-Context Algebra model under decision-rule steps 1--3 (base, t=0, accuracy). The R threshold is 1/n + 0.25, and g(G t0) $\geq$ 0.85 would make the model B-type. The class is the same on mean $p_{\mathrm{gold}}$.}\label{tab:ica}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=0.6552\hsize}X>{\raggedright\arraybackslash\hsize=1.3104\hsize}X>{\raggedright\arraybackslash\hsize=0.8238\hsize}Xl>{\raggedright\arraybackslash\hsize=1.3104\hsize}X>{\raggedright\arraybackslash\hsize=1.1139\hsize}X>{\raggedright\arraybackslash\hsize=0.7863\hsize}X@{}}
 \toprule
 cells & $\mathrm{acc}_L$ [95\% CI] & R threshold & O & G [95\% CI] & g(G t0) [95\% CI] & class \\
 \midrule
@@ -685,7 +688,7 @@ The preregistered derived quantities comp, held and $w$ are meaningful only abov
 \centering
 \small
 \caption{Class, Latin-forced accuracy and leak-control accuracy for every learner (except Asl), model and network on the identical 1,800 trials. Class is given on accuracy / mean $p_{\mathrm{gold}}$ at $n = 6$ and on accuracy at $n = 8$; $\mathrm{acc}_L$ is at $n = 6$, $t = 0$; leak G is G-cell accuracy in the leak control. \textsuperscript{\dag} nf4.}\label{tab:app-main-class}
-\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash\hsize=1.5278\hsize}X>{\raggedright\arraybackslash\hsize=0.8856\hsize}X>{\raggedright\arraybackslash\hsize=1.2483\hsize}X>{\raggedright\arraybackslash\hsize=0.6137\hsize}Xl>{\raggedright\arraybackslash\hsize=0.7246\hsize}X@{}}
 \toprule
 group & learner/model & precision & class n6 (acc / $p_{\mathrm{gold}}$) & class n8 & $\mathrm{acc}_L$ & leak G \\
 \midrule
@@ -784,7 +787,7 @@ The sorted variant lists the target's facts grouped by row. It is exploratory an
 \centering
 \small
 \caption{Sorted minus raw accuracy on L cells (exploratory; paired, same trials), with 95\% CIs. \textsuperscript{\dag} nf4.}\label{tab:app-cal-sorted}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=0.7593\hsize}X>{\raggedright\arraybackslash\hsize=1.0803\hsize}X>{\raggedright\arraybackslash\hsize=1.0802\hsize}X>{\raggedright\arraybackslash\hsize=1.0802\hsize}X@{}}
 \toprule
 model & k=16 & k=22 & k=28 \\
 \midrule
@@ -807,7 +810,7 @@ The instructed variant adds a one-paragraph task header (exploratory). Table~\re
 \centering
 \small
 \caption{Instructed minus raw accuracy by forcing class (exploratory; paired, pooled over $t$), with 95\% CIs. Queries per cell are the same for every model: at $k = 10$, L 123, O 1,194 and G 1,217; at $k = 22$, L 1,258, O 94 and G 48. \textsuperscript{\dag} nf4.}\label{tab:app-cal-instr}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=0.8008\hsize}Xl>{\raggedright\arraybackslash\hsize=1.0664\hsize}X>{\raggedright\arraybackslash\hsize=1.0664\hsize}X>{\raggedright\arraybackslash\hsize=1.0664\hsize}X@{}}
 \toprule
 model & k & L & O & G \\
 \midrule
@@ -837,7 +840,7 @@ Under the 2a rule as frozen, without the $\geq 30$-query guard, Qwen3-0.6B-Base 
 \centering
 \small
 \caption{Addendum 2d: the $k = 16$ operating point at $n = 6$ for the two models that the frozen rule sends there. G columns give G-cell accuracy at base $t = 0$, base $t = 4$, and scramble / held-out $t = 4$.}\label{tab:app-cal-2d}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=1.4495\hsize}X>{\raggedright\arraybackslash\hsize=1.2657\hsize}X>{\raggedright\arraybackslash\hsize=1.1515\hsize}X>{\raggedright\arraybackslash\hsize=0.5303\hsize}X>{\raggedright\arraybackslash\hsize=0.5303\hsize}X>{\raggedright\arraybackslash\hsize=0.7485\hsize}X>{\raggedright\arraybackslash\hsize=1.3242\hsize}X@{}}
 \toprule
 model & class (acc / $p_{\mathrm{gold}}$) & $\mathrm{acc}_L$ ($k = 16$, $t = 0$) [95\% CI] & G t0 & G t4 & G scr4 / held4 & t4 $-$ scr [95\% CI] \\
 \midrule
@@ -857,7 +860,7 @@ Table~\ref{tab:app-trained-count} summarises all raw-format cells for each run. 
 \centering
 \small
 \caption{Count-shortcut diagnostic over all raw-format cells (post hoc): share of predictions in the least-revealed set, and model minus learner C accuracy with its 95\% CI.}\label{tab:app-trained-count}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=0.8452\hsize}Xl>{\raggedright\arraybackslash\hsize=0.5749\hsize}X>{\raggedright\arraybackslash\hsize=1.5799\hsize}X@{}}
 \toprule
 run & trials & share in least-revealed set & model $-$ C [95\% CI] \\
 \midrule
@@ -901,7 +904,7 @@ The shortcut also accounts for the in-training plateau. Table~\ref{tab:app-train
 \centering
 \small
 \caption{Expected accuracy of learner C and of one-pass row/column elimination on the in-training evaluation conditions (post hoc; training generator, teacher-forced), over all remaining target facts and on the first fact after the cue.}\label{tab:app-trained-intrain}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xll>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=2.1264\hsize}Xll>{\raggedright\arraybackslash\hsize=0.7184\hsize}X>{\raggedright\arraybackslash\hsize=0.7184\hsize}X>{\raggedright\arraybackslash\hsize=0.7184\hsize}X>{\raggedright\arraybackslash\hsize=0.7184\hsize}X@{}}
 \toprule
 condition & n & t & C, all facts & row/col, all facts & C, first fact & row/col, first fact \\
 \midrule
@@ -929,7 +932,7 @@ Table~\ref{tab:app-cr-h1} reports the preregistered H1 test of Experiment 5 for 
 \centering
 \small
 \caption{Experiment 5: base minus leak projection on the CR axis at the detector layer, in detector format (preregistered H1) and raw format (exploratory), with trial-bootstrap 95\% CIs, Cohen's d and the query-level AUC for base $>$ leak. Calibration AUC is at the chosen layer. \textsuperscript{\dag} nf4.}\label{tab:app-cr-h1}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=1.3297\hsize}X>{\raggedright\arraybackslash\hsize=0.7767\hsize}X>{\raggedright\arraybackslash\hsize=1.5225\hsize}Xl>{\raggedright\arraybackslash\hsize=0.4865\hsize}X>{\raggedright\arraybackslash\hsize=1.3981\hsize}X>{\raggedright\arraybackslash\hsize=0.4865\hsize}X@{}}
 \toprule
 model & layer (cal. AUC) & detector: base $-$ leak [95\% CI] & d & query AUC & raw: base $-$ leak [95\% CI] & raw d \\
 \midrule
@@ -966,7 +969,7 @@ Experiment 5b (exploratory, not preregistered) was written down before its full 
 \centering
 \small
 \caption{Experiment 5b vocabulary-overlap control at the detector layer (layer 26 for Qwen3-0.6B-Base and Qwen3-1.7B-Base, 21 for Qwen3-1.7B, 34 for Qwen3-4B-Base \textsuperscript{\dag}), in detector and raw format, with 95\% CIs. $f_{\mathrm{vocab}}$ is uninformative where the base--leak gap is small (Qwen3-1.7B) or where vocabulary moves the projection the other way (Qwen3-1.7B-Base, raw).}\label{tab:app-cr-ctrl}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=1.1190\hsize}Xl>{\raggedright\arraybackslash\hsize=0.6280\hsize}X>{\raggedright\arraybackslash\hsize=0.9565\hsize}X>{\raggedright\arraybackslash\hsize=1.3194\hsize}X>{\raggedright\arraybackslash\hsize=0.9771\hsize}X@{}}
 \toprule
 model & format & base $-$ leak (d) & leak $-$ baseRel [95\% CI] & leakRel $-$ leak [95\% CI] ($d_z$) & $f_{\mathrm{vocab}}$ [95\% CI] \\
 \midrule
@@ -1010,7 +1013,7 @@ Decision-rule steps 1--3 need only the base $t = 0$ cell; steps 4--5 need $t = 4
 \centering
 \small
 \caption{In-Context Algebra model, decision-rule steps 1--3 at base $t = 0$ (preregistered at $n = 6$, primary, and $n = 8$, secondary; the $n = 5$ and addendum-2d rows apply the same steps to the other base $t = 0$ cells that fit the vocabulary), with trial-bootstrap 95\% CIs and the number of L queries. Every row is classified non-R, non-B.}\label{tab:app-ica-steps}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=0.6801\hsize}Xl>{\raggedright\arraybackslash\hsize=1.4878\hsize}X>{\raggedright\arraybackslash\hsize=0.7350\hsize}X>{\raggedright\arraybackslash\hsize=1.1336\hsize}X>{\raggedright\arraybackslash\hsize=0.9635\hsize}X@{}}
 \toprule
 order and cue & measure & $\mathrm{acc}_L$ [95\% CI] (L queries) & R threshold & G t0 [95\% CI] & g(G t0) [95\% CI] \\
 \midrule
@@ -1032,7 +1035,7 @@ Table~\ref{tab:app-ica-pred} lists the six preregistered predictions. Four are m
 \centering
 \small
 \caption{Preregistered predictions for the In-Context Algebra model and their outcomes.}\label{tab:app-ica-pred}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=1.4307\hsize}X>{\raggedright\arraybackslash\hsize=0.2730\hsize}X>{\raggedright\arraybackslash\hsize=1.2963\hsize}X@{}}
 \toprule
 prediction & outcome & evidence \\
 \midrule
@@ -1069,7 +1072,7 @@ At $n = 6$, base $t = 0$, the model scores 0.886 (L), 0.910 (O) and 0.637 (G), a
 \centering
 \small
 \caption{Cue sweep at $n = 6$, $t = 0$: accuracy over all queried cells for the In-Context Algebra model and Qwen3-8B-Base \textsuperscript{\dag} (raw and row-sorted facts), and the expected accuracy of learner C and one-pass row/column elimination on the same trials.}\label{tab:app-ica-sweep}
-\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash\hsize=0.9492\hsize}X>{\raggedright\arraybackslash\hsize=0.7593\hsize}X>{\raggedright\arraybackslash\hsize=0.9492\hsize}X>{\raggedright\arraybackslash\hsize=0.9523\hsize}X>{\raggedright\arraybackslash\hsize=1.1950\hsize}X>{\raggedright\arraybackslash\hsize=1.1950\hsize}X@{}}
 \toprule
 k & model, raw & model, sorted & learner C & row/col elimination & Qwen3-8B-Base, raw & Qwen3-8B-Base, sorted \\
 \midrule
@@ -1108,7 +1111,7 @@ The mechanism split is post hoc, added after the primary results. It pools the b
 \centering
 \small
 \caption{Mechanism split of G cells (post hoc), pooled over the base $t = 0$/$t = 1$ and held-out $t = 1$ cells of each order: model accuracy (number of cells), share of predictions equal to the revealed transpose, and the expected accuracy of the loop-level learner and of learners N and C.}\label{tab:app-ica-mech}
-\begin{tabularx}{\linewidth}{@{}ll>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}ll>{\raggedright\arraybackslash\hsize=1.2278\hsize}X>{\raggedright\arraybackslash\hsize=1.1437\hsize}X>{\raggedright\arraybackslash\hsize=0.8120\hsize}X>{\raggedright\arraybackslash\hsize=0.5046\hsize}X>{\raggedright\arraybackslash\hsize=1.3119\hsize}X@{}}
 \toprule
 order & target & transpose & G acc (cells) & pred. = transpose & loop level & N / C \\
 \midrule
@@ -1150,7 +1153,7 @@ For Qwen3-8B-Base and OLMo-2-7B, token embeddings were looked up on the CPU from
 \centering
 \small
 \caption{CPU-offload scoring path against standard scoring (batch 1; \texttt{exp2/\allowbreak{}offchk\_result.md}).}\label{tab:app-offload}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}Xl>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\hsize=1.0233\hsize}Xl>{\raggedright\arraybackslash\hsize=1.3643\hsize}X>{\raggedright\arraybackslash\hsize=0.7442\hsize}X>{\raggedright\arraybackslash\hsize=0.8682\hsize}X@{}}
 \toprule
 model & trials & argmax agreement & mean abs. $\Delta p_{\mathrm{gold}}$ (max) & accuracy, offload vs standard \\
 \midrule
@@ -1185,7 +1188,7 @@ Table~\ref{tab:app-dev-1}, Table~\ref{tab:app-dev-2}, Table~\ref{tab:app-dev-3} 
 \centering
 \small
 \caption{Deviations from preregistration, rows 1--5.}\label{tab:app-dev-1}
-\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash\hsize=0.3482\hsize}X>{\raggedright\arraybackslash\hsize=0.4510\hsize}X>{\raggedright\arraybackslash\hsize=2.9041\hsize}X>{\raggedright\arraybackslash\hsize=0.2967\hsize}X@{}}
 \toprule
 row & prereg & planned & done & when \\
 \midrule
@@ -1202,7 +1205,7 @@ row & prereg & planned & done & when \\
 \centering
 \small
 \caption{Deviations from preregistration, rows 6--12.}\label{tab:app-dev-2}
-\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash\hsize=0.3482\hsize}X>{\raggedright\arraybackslash\hsize=0.6053\hsize}X>{\raggedright\arraybackslash\hsize=2.3897\hsize}X>{\raggedright\arraybackslash\hsize=0.6568\hsize}X@{}}
 \toprule
 row & prereg & planned & done & when \\
 \midrule
@@ -1221,7 +1224,7 @@ row & prereg & planned & done & when \\
 \centering
 \small
 \caption{Deviations from preregistration, rows 13--20.}\label{tab:app-dev-3}
-\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash\hsize=0.7596\hsize}X>{\raggedright\arraybackslash\hsize=0.8625\hsize}X>{\raggedright\arraybackslash\hsize=1.7726\hsize}X>{\raggedright\arraybackslash\hsize=0.6053\hsize}X@{}}
 \toprule
 row & prereg & planned & done & when \\
 \midrule
@@ -1241,7 +1244,7 @@ row & prereg & planned & done & when \\
 \centering
 \small
 \caption{Deviations from preregistration, rows 21--23.}\label{tab:app-dev-4}
-\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\begin{tabularx}{\linewidth}{@{}l>{\raggedright\arraybackslash\hsize=0.5539\hsize}X>{\raggedright\arraybackslash\hsize=0.7428\hsize}X>{\raggedright\arraybackslash\hsize=2.4066\hsize}X>{\raggedright\arraybackslash\hsize=0.2967\hsize}X@{}}
 \toprule
 row & prereg & planned & done & when \\
 \midrule
